@@ -121,7 +121,7 @@ TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Down:connect(function()
-	if username.Text == "SenpaiHub" and password.Text == "SenpaiHubV1" then
+	if username.Text == "SenpaiHub" and password.Text == "SubscribeToSenpai" then
 		LoginFrame.Visible = false
 		MegaLegohaxframe.Visible = true
 	end

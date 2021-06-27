@@ -1,7 +1,7 @@
--- Password is on Discord Server 
--- Version: 3.2
-
--- Instances:
+-- oi why you looking here?
+-- r u trying to copy my scripts?
+--sike idiot go make your own
+-- no copy
 
 local ScreenGui = Instance.new("ScreenGui")
 local LoginFrame = Instance.new("Frame")

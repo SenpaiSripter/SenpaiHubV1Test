@@ -90,7 +90,8 @@ LoginFrame.Parent = ScreenGui
 LoginFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 LoginFrame.Position = UDim2.new(0.307793915, 0, 0.191293791, 0)
 LoginFrame.Size = UDim2.new(0, 291, 0, 316)
-
+LoginFrame.Active = true
+LoginFrame.Draggable = true
 
 username.Name = "username"
 username.Parent = LoginFrame

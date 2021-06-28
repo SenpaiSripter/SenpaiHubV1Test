@@ -1,7 +1,7 @@
 -- oi why you looking here?
 -- r u trying to copy my scripts?
 --sike idiot go make your own
--- no copy
+-- no copy:
 
 local ScreenGui = Instance.new("ScreenGui")
 local LoginFrame = Instance.new("Frame")
@@ -13,24 +13,28 @@ local TextButton = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local Logintittle = Instance.new("TextLabel")
 local UICorner_4 = Instance.new("UICorner")
-local MegaLegohaxframe = Instance.new("Frame")
+local openframe = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
+local MegaLegohaxframe = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
 local Tittle = Instance.new("TextLabel")
 local ScriptFrame = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
-local FeSenpaiHub = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local InfYield = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local TextButton_2 = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local TextButton_3 = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local TextButton_4 = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local CreditFrame = Instance.new("Frame")
-local UICorner_12 = Instance.new("UICorner")
 local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local RTX = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local InfYield = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local FeSenpaiHub = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local CreditFrame = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
 local Hello = Instance.new("TextButton")
 local To = Instance.new("TextButton")
 local Credit = Instance.new("TextButton")
@@ -41,35 +45,41 @@ local Chat = Instance.new("TextButton")
 local Sen = Instance.new("TextButton")
 local Thanks = Instance.new("TextButton")
 local GameFrame = Instance.new("Frame")
-local UICorner_13 = Instance.new("UICorner")
-local ShindoLife = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
-local BloxFruit = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
+local ScrollingFrame_3 = Instance.new("ScrollingFrame")
 local AnimalSimulator = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local BloxFruit = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
-local DestructionSimulator = Instance.new("TextButton")
+local AnimeDimension = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
-local Adoptme = Instance.new("TextButton")
+local DestructionSimulator = Instance.new("TextButton")
 local UICorner_18 = Instance.new("UICorner")
-local DaHood = Instance.new("TextButton")
+local ShindoLife = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
-local ComingSoon = Instance.new("TextButton")
+local Adoptme = Instance.new("TextButton")
 local UICorner_20 = Instance.new("UICorner")
-local CreditButton = Instance.new("TextButton")
+local Kat = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
-local V1 = Instance.new("TextButton")
+local Soon = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
-local GameButton = Instance.new("TextButton")
+local Soon_2 = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
-local ScriptButton = Instance.new("TextButton")
+local DaHood = Instance.new("TextButton")
 local UICorner_24 = Instance.new("UICorner")
-local Minimize = Instance.new("TextButton")
+local CreditButton = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
-local openframe = Instance.new("Frame")
-local TextButton_5 = Instance.new("TextButton")
+local GameButton = Instance.new("TextButton")
 local UICorner_26 = Instance.new("UICorner")
+local ScriptButton = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Minimize = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_29 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
 
+--Properties:
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -80,6 +90,7 @@ LoginFrame.Parent = ScreenGui
 LoginFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 LoginFrame.Position = UDim2.new(0.307793915, 0, 0.191293791, 0)
 LoginFrame.Size = UDim2.new(0, 291, 0, 316)
+
 
 username.Name = "username"
 username.Parent = LoginFrame
@@ -112,7 +123,7 @@ UICorner_2.Parent = password
 
 TextButton.Parent = LoginFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
-TextButton.Position = UDim2.new(0, 57, 0, 234)
+TextButton.Position = UDim2.new(0, 56, 0, 238)
 TextButton.Size = UDim2.new(0, 176, 0, 48)
 TextButton.Font = Enum.Font.Gotham
 TextButton.Text = "Login"
@@ -146,22 +157,42 @@ Logintittle.TextWrapped = true
 UICorner_4.CornerRadius = UDim.new(0, 20)
 UICorner_4.Parent = LoginFrame
 
+openframe.Name = "openframe"
+openframe.Parent = ScreenGui
+openframe.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+openframe.BackgroundTransparency = 1.000
+openframe.Position = UDim2.new(0.0118890367, 0, 0.689548373, 0)
+openframe.Size = UDim2.new(0, 70, 0, 49)
+openframe.Visible = false
+
+TextButton_2.Parent = openframe
+TextButton_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_2.Size = UDim2.new(0, 62, 0, 36)
+TextButton_2.Font = Enum.Font.SourceSansSemibold
+TextButton_2.Text = "OPEN"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_5.Parent = TextButton_2
+
 MegaLegohaxframe.Name = "Mega Lego hax frame"
 MegaLegohaxframe.Parent = ScreenGui
 MegaLegohaxframe.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
-MegaLegohaxframe.Position = UDim2.new(0.155000001, 0, 0.174999997, 0)
-MegaLegohaxframe.Size = UDim2.new(0, 485, 0, 342)
+MegaLegohaxframe.Position = UDim2.new(0.155000016, 0, 0.161717281, 0)
+MegaLegohaxframe.Size = UDim2.new(0, 540, 0, 349)
 MegaLegohaxframe.Visible = false
 MegaLegohaxframe.Active = true
 
-UICorner_5.Parent = MegaLegohaxframe
+UICorner_6.Parent = MegaLegohaxframe
 
 Tittle.Name = "Tittle"
 Tittle.Parent = MegaLegohaxframe
 Tittle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Tittle.BackgroundTransparency = 1.000
-Tittle.Position = UDim2.new(0.319262803, 0, 0, 0)
-Tittle.Size = UDim2.new(0, 200, 0, 40)
+Tittle.Position = UDim2.new(-0.000204750337, 0, -0.0171919763, 0)
+Tittle.Size = UDim2.new(0, 116, 0, 58)
 Tittle.Font = Enum.Font.SourceSansSemibold
 Tittle.Text = "SenpaiHub"
 Tittle.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -172,33 +203,65 @@ Tittle.TextWrapped = true
 ScriptFrame.Name = "ScriptFrame"
 ScriptFrame.Parent = MegaLegohaxframe
 ScriptFrame.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-ScriptFrame.Position = UDim2.new(0.214902207, 0, 0.134502918, 0)
-ScriptFrame.Size = UDim2.new(0, 380, 0, 296)
+ScriptFrame.Position = UDim2.new(0.214902237, 0, 0.15121451, 0)
+ScriptFrame.Size = UDim2.new(0, 419, 0, 290)
 ScriptFrame.Visible = false
 
-UICorner_6.Parent = ScriptFrame
+UICorner_7.Parent = ScriptFrame
 
-FeSenpaiHub.Name = "FeSenpaiHub"
-FeSenpaiHub.Parent = ScriptFrame
-FeSenpaiHub.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-FeSenpaiHub.Position = UDim2.new(0.042105265, 0, 0.0743243322, 0)
-FeSenpaiHub.Size = UDim2.new(0, 170, 0, 51)
-FeSenpaiHub.Font = Enum.Font.SourceSansSemibold
-FeSenpaiHub.Text = "Fe Senpai Hub"
-FeSenpaiHub.TextColor3 = Color3.fromRGB(255, 255, 255)
-FeSenpaiHub.TextScaled = true
-FeSenpaiHub.TextSize = 14.000
-FeSenpaiHub.TextWrapped = true
-FeSenpaiHub.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenpaiSripter/NAH/main/Fe%20Senpai%20HUB" , true))()
+ScrollingFrame.Parent = ScriptFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Size = UDim2.new(0, 419, 0, 296)
+
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+TextButton_3.Position = UDim2.new(0.0368421078, 0, 0.207770258, 0)
+TextButton_3.Size = UDim2.new(0, 170, 0, 51)
+TextButton_3.Font = Enum.Font.SourceSansSemibold
+TextButton_3.Text = "Coming Soon"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_8.Parent = TextButton_3
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+TextButton_4.Position = UDim2.new(0.513157904, 0, 0.109797284, 0)
+TextButton_4.Size = UDim2.new(0, 170, 0, 51)
+TextButton_4.Font = Enum.Font.SourceSansSemibold
+TextButton_4.Text = "Coming Soon"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_9.Parent = TextButton_4
+
+RTX.Name = "RTX"
+RTX.Parent = ScrollingFrame
+RTX.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+RTX.Position = UDim2.new(0.513157904, 0, 0.00844595581, 0)
+RTX.Size = UDim2.new(0, 170, 0, 51)
+RTX.Font = Enum.Font.SourceSansSemibold
+RTX.Text = "RTX"
+RTX.TextColor3 = Color3.fromRGB(255, 255, 255)
+RTX.TextScaled = true
+RTX.TextSize = 14.000
+RTX.TextWrapped = true
+RTX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Ba5A2mXj" , true))()
 end)
 
-UICorner_7.Parent = FeSenpaiHub
+UICorner_10.Parent = RTX
 
 InfYield.Name = "InfYield"
-InfYield.Parent = ScriptFrame
+InfYield.Parent = ScrollingFrame
 InfYield.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-InfYield.Position = UDim2.new(0.042105265, 0, 0.266891897, 0)
+InfYield.Position = UDim2.new(0.0368421078, 0, 0.109797306, 0)
 InfYield.Size = UDim2.new(0, 170, 0, 51)
 InfYield.Font = Enum.Font.SourceSansSemibold
 InfYield.Text = "InfYield"
@@ -210,64 +273,42 @@ InfYield.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source" , true))()
 end)
 
-UICorner_8.Parent = InfYield
+UICorner_11.Parent = InfYield
 
-TextButton_2.Parent = ScriptFrame
-TextButton_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-TextButton_2.Position = UDim2.new(0.042105265, 0, 0.469594598, 0)
-TextButton_2.Size = UDim2.new(0, 170, 0, 51)
-TextButton_2.Font = Enum.Font.SourceSansSemibold
-TextButton_2.Text = "Coming Soon"
-TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_2.TextScaled = true
-TextButton_2.TextSize = 14.000
-TextButton_2.TextWrapped = true
+FeSenpaiHub.Name = "FeSenpaiHub"
+FeSenpaiHub.Parent = ScrollingFrame
+FeSenpaiHub.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+FeSenpaiHub.Position = UDim2.new(0.0368421078, 0, 0.00844595581, 0)
+FeSenpaiHub.Size = UDim2.new(0, 170, 0, 51)
+FeSenpaiHub.Font = Enum.Font.SourceSansSemibold
+FeSenpaiHub.Text = "Fe Senpai Hub"
+FeSenpaiHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+FeSenpaiHub.TextScaled = true
+FeSenpaiHub.TextSize = 14.000
+FeSenpaiHub.TextWrapped = true
+FeSenpaiHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenpaiSripter/NAH/main/Fe%20Senpai%20HUB" , true))()
+end)
 
-UICorner_9.Parent = TextButton_2
-
-TextButton_3.Parent = ScriptFrame
-TextButton_3.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-TextButton_3.Position = UDim2.new(0.042105265, 0, 0.665540576, 0)
-TextButton_3.Size = UDim2.new(0, 170, 0, 51)
-TextButton_3.Font = Enum.Font.SourceSansSemibold
-TextButton_3.Text = "Coming Soon"
-TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.TextScaled = true
-TextButton_3.TextSize = 14.000
-TextButton_3.TextWrapped = true
-
-UICorner_10.Parent = TextButton_3
-
-TextButton_4.Parent = ScriptFrame
-TextButton_4.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-TextButton_4.Position = UDim2.new(0.518421054, 0, 0.0743243322, 0)
-TextButton_4.Size = UDim2.new(0, 170, 0, 51)
-TextButton_4.Font = Enum.Font.SourceSansSemibold
-TextButton_4.Text = "Coming Soon"
-TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 14.000
-TextButton_4.TextWrapped = true
-
-UICorner_11.Parent = TextButton_4
+UICorner_12.Parent = FeSenpaiHub
 
 CreditFrame.Name = "CreditFrame"
 CreditFrame.Parent = MegaLegohaxframe
 CreditFrame.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-CreditFrame.Position = UDim2.new(0.214902207, 0, 0.134502918, 0)
-CreditFrame.Size = UDim2.new(0, 380, 0, 296)
+CreditFrame.Position = UDim2.new(0.214902237, 0, 0.15121451, 0)
+CreditFrame.Size = UDim2.new(0, 419, 0, 290)
 CreditFrame.Visible = false
 
-UICorner_12.Parent = CreditFrame
+UICorner_13.Parent = CreditFrame
 
-ScrollingFrame.Parent = CreditFrame
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScrollingFrame.BackgroundTransparency = 1.000
-ScrollingFrame.Size = UDim2.new(0, 379, 0, 296)
+ScrollingFrame_2.Parent = CreditFrame
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.Size = UDim2.new(0, 419, 0, 296)
 
 Hello.Name = "Hello"
-Hello.Parent = ScrollingFrame
+Hello.Parent = ScrollingFrame_2
 Hello.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Hello.BackgroundTransparency = 1.000
 Hello.Position = UDim2.new(0.0422163568, 0, 0.0152027011, 0)
@@ -280,7 +321,7 @@ Hello.TextSize = 14.000
 Hello.TextWrapped = true
 
 To.Name = "To"
-To.Parent = ScrollingFrame
+To.Parent = ScrollingFrame_2
 To.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 To.BackgroundTransparency = 1.000
 To.Position = UDim2.new(0.0422163606, 0, 0.194256768, 0)
@@ -293,7 +334,7 @@ To.TextSize = 14.000
 To.TextWrapped = true
 
 Credit.Name = "Credit"
-Credit.Parent = ScrollingFrame
+Credit.Parent = ScrollingFrame_2
 Credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Credit.BackgroundTransparency = 1.000
 Credit.Position = UDim2.new(0.0422163606, 0, 0.123310819, 0)
@@ -306,7 +347,7 @@ Credit.TextSize = 14.000
 Credit.TextWrapped = true
 
 Senpai.Name = "Senpai"
-Senpai.Parent = ScrollingFrame
+Senpai.Parent = ScrollingFrame_2
 Senpai.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Senpai.BackgroundTransparency = 1.000
 Senpai.Position = UDim2.new(0.0422163606, 0, 0.266891897, 0)
@@ -319,7 +360,7 @@ Senpai.TextSize = 14.000
 Senpai.TextWrapped = true
 
 Kazuma.Name = "Kazuma"
-Kazuma.Parent = ScrollingFrame
+Kazuma.Parent = ScrollingFrame_2
 Kazuma.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Kazuma.BackgroundTransparency = 1.000
 Kazuma.Position = UDim2.new(0.0422163606, 0, 0.339527041, 0)
@@ -332,7 +373,7 @@ Kazuma.TextSize = 14.000
 Kazuma.TextWrapped = true
 
 Any.Name = "Any"
-Any.Parent = ScrollingFrame
+Any.Parent = ScrollingFrame_2
 Any.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Any.BackgroundTransparency = 1.000
 Any.Position = UDim2.new(0.0422163606, 0, 0.439189225, 0)
@@ -345,7 +386,7 @@ Any.TextSize = 14.000
 Any.TextWrapped = true
 
 Chat.Name = "Chat"
-Chat.Parent = ScrollingFrame
+Chat.Parent = ScrollingFrame_2
 Chat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Chat.BackgroundTransparency = 1.000
 Chat.Position = UDim2.new(0.0422163606, 0, 0.511824369, 0)
@@ -358,7 +399,7 @@ Chat.TextSize = 14.000
 Chat.TextWrapped = true
 
 Sen.Name = "Sen"
-Sen.Parent = ScrollingFrame
+Sen.Parent = ScrollingFrame_2
 Sen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Sen.BackgroundTransparency = 1.000
 Sen.Position = UDim2.new(0.0422163606, 0, 0.584459484, 0)
@@ -371,7 +412,7 @@ Sen.TextSize = 14.000
 Sen.TextWrapped = true
 
 Thanks.Name = "Thanks"
-Thanks.Parent = ScrollingFrame
+Thanks.Parent = ScrollingFrame_2
 Thanks.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Thanks.BackgroundTransparency = 1.000
 Thanks.Position = UDim2.new(0.0422163606, 0, 0.694256723, 0)
@@ -386,50 +427,21 @@ Thanks.TextWrapped = true
 GameFrame.Name = "GameFrame"
 GameFrame.Parent = MegaLegohaxframe
 GameFrame.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-GameFrame.Position = UDim2.new(0.214902207, 0, 0.134502918, 0)
-GameFrame.Size = UDim2.new(0, 380, 0, 296)
-GameFrame.Visible = false
+GameFrame.Position = UDim2.new(0.214902237, 0, 0.15121451, 0)
+GameFrame.Size = UDim2.new(0, 419, 0, 290)
 
-UICorner_13.Parent = GameFrame
+UICorner_14.Parent = GameFrame
 
-ShindoLife.Name = "ShindoLife"
-ShindoLife.Parent = GameFrame
-ShindoLife.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-ShindoLife.Position = UDim2.new(0.0368421078, 0, 0.0641891956, 0)
-ShindoLife.Size = UDim2.new(0, 170, 0, 51)
-ShindoLife.Font = Enum.Font.SourceSansSemibold
-ShindoLife.Text = "ShindoLife"
-ShindoLife.TextColor3 = Color3.fromRGB(255, 255, 255)
-ShindoLife.TextScaled = true
-ShindoLife.TextSize = 14.000
-ShindoLife.TextWrapped = true
-ShindoLife.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://bruh.keshsenpai.com/.lua" , true))()
-end)
-
-UICorner_14.Parent = ShindoLife
-
-BloxFruit.Name = "BloxFruit"
-BloxFruit.Parent = GameFrame
-BloxFruit.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-BloxFruit.Position = UDim2.new(0.0368421078, 0, 0.260135144, 0)
-BloxFruit.Size = UDim2.new(0, 170, 0, 51)
-BloxFruit.Font = Enum.Font.SourceSansSemibold
-BloxFruit.Text = "BloxFruit"
-BloxFruit.TextColor3 = Color3.fromRGB(255, 255, 255)
-BloxFruit.TextScaled = true
-BloxFruit.TextSize = 14.000
-BloxFruit.TextWrapped = true
-BloxFruit.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://reaperking.xyz/bloxfruit" , true))()
-end)
-
-UICorner_15.Parent = BloxFruit
+ScrollingFrame_3.Parent = GameFrame
+ScrollingFrame_3.Active = true
+ScrollingFrame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_3.BackgroundTransparency = 1.000
+ScrollingFrame_3.Size = UDim2.new(0, 419, 0, 296)
 
 AnimalSimulator.Name = "AnimalSimulator"
-AnimalSimulator.Parent = GameFrame
+AnimalSimulator.Parent = ScrollingFrame_3
 AnimalSimulator.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-AnimalSimulator.Position = UDim2.new(0.0368421078, 0, 0.459459484, 0)
+AnimalSimulator.Position = UDim2.new(0.0368421078, 0, 0.222973004, 0)
 AnimalSimulator.Size = UDim2.new(0, 170, 0, 51)
 AnimalSimulator.Font = Enum.Font.SourceSansSemibold
 AnimalSimulator.Text = "AnimalSimulator"
@@ -441,12 +453,46 @@ AnimalSimulator.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenpaiSripter/sdf/main/AnimalSim" , true))()
 end)
 
-UICorner_16.Parent = AnimalSimulator
+UICorner_15.Parent = AnimalSimulator
+
+BloxFruit.Name = "BloxFruit"
+BloxFruit.Parent = ScrollingFrame_3
+BloxFruit.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+BloxFruit.Position = UDim2.new(0.0368421078, 0, 0.121621624, 0)
+BloxFruit.Size = UDim2.new(0, 170, 0, 51)
+BloxFruit.Font = Enum.Font.SourceSansSemibold
+BloxFruit.Text = "BloxFruit"
+BloxFruit.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFruit.TextScaled = true
+BloxFruit.TextSize = 14.000
+BloxFruit.TextWrapped = true
+BloxFruit.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://reaperking.xyz/bloxfruit" , true))()
+end)
+
+UICorner_16.Parent = BloxFruit
+
+AnimeDimension.Name = "Anime Dimension"
+AnimeDimension.Parent = ScrollingFrame_3
+AnimeDimension.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+AnimeDimension.Position = UDim2.new(0.515789449, 0, 0.222972989, 0)
+AnimeDimension.Size = UDim2.new(0, 170, 0, 51)
+AnimeDimension.Font = Enum.Font.SourceSansSemibold
+AnimeDimension.Text = "Anime Dimension"
+AnimeDimension.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnimeDimension.TextScaled = true
+AnimeDimension.TextSize = 14.000
+AnimeDimension.TextWrapped = true
+AnimeDimension.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenpaiSripter/AnimeDeminsion/main/AnimeDeminsion" , true))()
+end)
+
+UICorner_17.Parent = AnimeDimension
 
 DestructionSimulator.Name = "Destruction Simulator"
-DestructionSimulator.Parent = GameFrame
+DestructionSimulator.Parent = ScrollingFrame_3
 DestructionSimulator.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-DestructionSimulator.Position = UDim2.new(0.0368421078, 0, 0.658783793, 0)
+DestructionSimulator.Position = UDim2.new(0.0368421078, 0, 0.327702701, 0)
 DestructionSimulator.Size = UDim2.new(0, 170, 0, 51)
 DestructionSimulator.Font = Enum.Font.SourceSansSemibold
 DestructionSimulator.Text = "Destruction Simulator"
@@ -458,12 +504,29 @@ DestructionSimulator.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://github.com/SenpaiSripter/Dis/blob/main/SenpaiHubscript1" , true))()
 end)
 
-UICorner_17.Parent = DestructionSimulator
+UICorner_18.Parent = DestructionSimulator
+
+ShindoLife.Name = "ShindoLife"
+ShindoLife.Parent = ScrollingFrame_3
+ShindoLife.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+ShindoLife.Position = UDim2.new(0.0368421078, 0, 0.0236486569, 0)
+ShindoLife.Size = UDim2.new(0, 170, 0, 51)
+ShindoLife.Font = Enum.Font.SourceSansSemibold
+ShindoLife.Text = "ShindoLife"
+ShindoLife.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShindoLife.TextScaled = true
+ShindoLife.TextSize = 14.000
+ShindoLife.TextWrapped = true
+ShindoLife.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://bruh.keshsenpai.com/.lua" , true))()
+end)
+
+UICorner_19.Parent = ShindoLife
 
 Adoptme.Name = "Adopt me"
-Adoptme.Parent = GameFrame
+Adoptme.Parent = ScrollingFrame_3
 Adoptme.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-Adoptme.Position = UDim2.new(0.515789449, 0, 0.0641891956, 0)
+Adoptme.Position = UDim2.new(0.515789449, 0, 0.0236486569, 0)
 Adoptme.Size = UDim2.new(0, 170, 0, 51)
 Adoptme.Font = Enum.Font.SourceSansSemibold
 Adoptme.Text = "Adopt Me"
@@ -475,12 +538,57 @@ Adoptme.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub" , true))()
 end)
 
-UICorner_18.Parent = Adoptme
+UICorner_20.Parent = Adoptme
+
+Kat.Name = "Kat"
+Kat.Parent = ScrollingFrame_3
+Kat.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Kat.Position = UDim2.new(0.514169097, 0, 0.327702701, 0)
+Kat.Size = UDim2.new(0, 170, 0, 51)
+Kat.Font = Enum.Font.SourceSansSemibold
+Kat.Text = "Kat"
+Kat.TextColor3 = Color3.fromRGB(255, 255, 255)
+Kat.TextScaled = true
+Kat.TextSize = 14.000
+Kat.TextWrapped = true
+Kat.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/MHx8q6xP" , true))()
+end)
+
+UICorner_21.Parent = Kat
+
+Soon.Name = "Soon"
+Soon.Parent = ScrollingFrame_3
+Soon.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Soon.Position = UDim2.new(0.0368421078, 0, 0.436323404, 0)
+Soon.Size = UDim2.new(0, 170, 0, 51)
+Soon.Font = Enum.Font.SourceSansSemibold
+Soon.Text = "ComingSoon"
+Soon.TextColor3 = Color3.fromRGB(255, 255, 255)
+Soon.TextScaled = true
+Soon.TextSize = 14.000
+Soon.TextWrapped = true
+
+UICorner_22.Parent = Soon
+
+Soon_2.Name = "Soon"
+Soon_2.Parent = ScrollingFrame_3
+Soon_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Soon_2.Position = UDim2.new(0.514169097, 0, 0.436323404, 0)
+Soon_2.Size = UDim2.new(0, 170, 0, 51)
+Soon_2.Font = Enum.Font.SourceSansSemibold
+Soon_2.Text = "ComingSoon"
+Soon_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Soon_2.TextScaled = true
+Soon_2.TextSize = 14.000
+Soon_2.TextWrapped = true
+
+UICorner_23.Parent = Soon_2
 
 DaHood.Name = "Da Hood"
-DaHood.Parent = GameFrame
+DaHood.Parent = ScrollingFrame_3
 DaHood.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-DaHood.Position = UDim2.new(0.515789449, 0, 0.260135144, 0)
+DaHood.Position = UDim2.new(0.515789449, 0, 0.121621624, 0)
 DaHood.Size = UDim2.new(0, 170, 0, 51)
 DaHood.Font = Enum.Font.SourceSansSemibold
 DaHood.Text = "Da Hood"
@@ -492,21 +600,7 @@ DaHood.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Compwnter/LegacyX/main/script.lua" , true))()
 end)
 
-UICorner_19.Parent = DaHood
-
-ComingSoon.Name = "Coming Soon"
-ComingSoon.Parent = GameFrame
-ComingSoon.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-ComingSoon.Position = UDim2.new(0.515789449, 0, 0.459459484, 0)
-ComingSoon.Size = UDim2.new(0, 170, 0, 51)
-ComingSoon.Font = Enum.Font.SourceSansSemibold
-ComingSoon.Text = "Coming Soon"
-ComingSoon.TextColor3 = Color3.fromRGB(255, 255, 255)
-ComingSoon.TextScaled = true
-ComingSoon.TextSize = 14.000
-ComingSoon.TextWrapped = true
-
-UICorner_20.Parent = ComingSoon
+UICorner_24.Parent = DaHood
 
 CreditButton.Name = "CreditButton"
 CreditButton.Parent = MegaLegohaxframe
@@ -520,21 +614,7 @@ CreditButton.TextScaled = true
 CreditButton.TextSize = 14.000
 CreditButton.TextWrapped = true
 
-UICorner_21.Parent = CreditButton
-
-V1.Name = "V1"
-V1.Parent = MegaLegohaxframe
-V1.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
-V1.Position = UDim2.new(0.0146100279, 0, 0.830897629, 0)
-V1.Size = UDim2.new(0, 90, 0, 51)
-V1.Font = Enum.Font.SourceSansSemibold
-V1.Text = "V1"
-V1.TextColor3 = Color3.fromRGB(255, 255, 255)
-V1.TextScaled = true
-V1.TextSize = 14.000
-V1.TextWrapped = true
-
-UICorner_22.Parent = V1
+UICorner_25.Parent = CreditButton
 
 GameButton.Name = "GameButton"
 GameButton.Parent = MegaLegohaxframe
@@ -548,7 +628,7 @@ GameButton.TextScaled = true
 GameButton.TextSize = 14.000
 GameButton.TextWrapped = true
 
-UICorner_23.Parent = GameButton
+UICorner_26.Parent = GameButton
 
 ScriptButton.Name = "ScriptButton"
 ScriptButton.Parent = MegaLegohaxframe
@@ -562,13 +642,13 @@ ScriptButton.TextScaled = true
 ScriptButton.TextSize = 14.000
 ScriptButton.TextWrapped = true
 
-UICorner_24.Parent = ScriptButton
+UICorner_27.Parent = ScriptButton
 
 Minimize.Name = "Minimize"
 Minimize.Parent = MegaLegohaxframe
 Minimize.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Minimize.Position = UDim2.new(0.90721643, 0, 0, 0)
-Minimize.Size = UDim2.new(0, 45, 0, 39)
+Minimize.Position = UDim2.new(0.921649337, 0, 0, 0)
+Minimize.Size = UDim2.new(0, 38, 0, 32)
 Minimize.Font = Enum.Font.SourceSansSemibold
 Minimize.Text = "X"
 Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -576,32 +656,31 @@ Minimize.TextScaled = true
 Minimize.TextSize = 14.000
 Minimize.TextWrapped = true
 
-UICorner_25.CornerRadius = UDim.new(0, 500)
-UICorner_25.Parent = Minimize
+UICorner_28.CornerRadius = UDim.new(0, 500)
+UICorner_28.Parent = Minimize
 
-openframe.Name = "openframe"
-openframe.Parent = ScreenGui
-openframe.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-openframe.BackgroundTransparency = 1.000
-openframe.Position = UDim2.new(0.0118890358, 0, 0.714216292, 0)
-openframe.Size = UDim2.new(0, 62, 0, 36)
-openframe.Visible = false
+ImageLabel.Parent = MegaLegohaxframe
+ImageLabel.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ImageLabel.Position = UDim2.new(0.0146100232, 0, 0.76504308, 0)
+ImageLabel.Size = UDim2.new(0, 89, 0, 73)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-TextButton_5.Parent = openframe
-TextButton_5.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-TextButton_5.Size = UDim2.new(0, 62, 0, 36)
-TextButton_5.Font = Enum.Font.SourceSansSemibold
-TextButton_5.Text = "OPEN"
-TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_5.TextScaled = true
-TextButton_5.TextSize = 14.000
-TextButton_5.TextWrapped = true
+UICorner_29.Parent = ImageLabel
 
-UICorner_26.Parent = TextButton_5
+TextLabel.Parent = MegaLegohaxframe
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.251723468, 0, 0.0286532957, 0)
+TextLabel.Size = UDim2.new(0, 324, 0, 32)
+TextLabel.Font = Enum.Font.Arial
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
 
 -- Scripts:
 
-local function IXAY_fake_script() -- LoginFrame.LocalScript 
+local function QFLKTN_fake_script() -- LoginFrame.LocalScript 
 	local script = Instance.new('LocalScript', LoginFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -643,8 +722,60 @@ local function IXAY_fake_script() -- LoginFrame.LocalScript
 	dragify(script.Parent)
 	
 end
-coroutine.wrap(IXAY_fake_script)()
-local function ONSWOZX_fake_script() -- CreditButton.LocalScript 
+coroutine.wrap(QFLKTN_fake_script)()
+local function MSATL_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent["Mega Lego hax frame"].Visible = true
+	end)
+end
+coroutine.wrap(MSATL_fake_script)()
+local function ZRFVZ_fake_script() -- openframe.LocalScript 
+	local script = Instance.new('LocalScript', openframe)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+		dragToggle = nil
+		local dragSpeed = 0
+		dragInput = nil
+		dragStart = nil
+		local dragPos = nil
+		function updateInput(input)
+			local Delta = input.Position - dragStart
+			local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+		end
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		Frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	
+	dragify(script.Parent)
+	
+end
+coroutine.wrap(ZRFVZ_fake_script)()
+local function BBSLHGO_fake_script() -- CreditButton.LocalScript 
 	local script = Instance.new('LocalScript', CreditButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -653,8 +784,8 @@ local function ONSWOZX_fake_script() -- CreditButton.LocalScript
 		script.Parent.Parent.CreditFrame.Visible = true
 	end)
 end
-coroutine.wrap(ONSWOZX_fake_script)()
-local function BXBBZ_fake_script() -- GameButton.LocalScript 
+coroutine.wrap(BBSLHGO_fake_script)()
+local function IRWUA_fake_script() -- GameButton.LocalScript 
 	local script = Instance.new('LocalScript', GameButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -663,8 +794,8 @@ local function BXBBZ_fake_script() -- GameButton.LocalScript
 		script.Parent.Parent.CreditFrame.Visible = false
 	end)
 end
-coroutine.wrap(BXBBZ_fake_script)()
-local function DUUSWNP_fake_script() -- ScriptButton.LocalScript 
+coroutine.wrap(IRWUA_fake_script)()
+local function QQXRF_fake_script() -- ScriptButton.LocalScript 
 	local script = Instance.new('LocalScript', ScriptButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -673,8 +804,8 @@ local function DUUSWNP_fake_script() -- ScriptButton.LocalScript
 		script.Parent.Parent.CreditFrame.Visible = false
 	end)
 end
-coroutine.wrap(DUUSWNP_fake_script)()
-local function VUZHXNS_fake_script() -- MegaLegohaxframe.LocalScript 
+coroutine.wrap(QQXRF_fake_script)()
+local function HNONPG_fake_script() -- MegaLegohaxframe.LocalScript 
 	local script = Instance.new('LocalScript', MegaLegohaxframe)
 
 	local UIS = game:GetService("UserInputService")
@@ -716,8 +847,8 @@ local function VUZHXNS_fake_script() -- MegaLegohaxframe.LocalScript
 	dragify(script.Parent)
 	
 end
-coroutine.wrap(VUZHXNS_fake_script)()
-local function SYMEJC_fake_script() -- Minimize.LocalScript 
+coroutine.wrap(HNONPG_fake_script)()
+local function LUKJVYT_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -725,13 +856,34 @@ local function SYMEJC_fake_script() -- Minimize.LocalScript
 		script.Parent.Parent.Parent.openframe.Visible = true
 	end)
 end
-coroutine.wrap(SYMEJC_fake_script)()
-local function XBPGK_fake_script() -- TextButton_5.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_5)
+coroutine.wrap(LUKJVYT_fake_script)()
+local function QDSC_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
 
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Visible = false
-		script.Parent.Parent.Parent["Mega Lego hax frame"].Visible = true
-	end)
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 89, 0, 73)
 end
-coroutine.wrap(XBPGK_fake_script)()
+coroutine.wrap(QDSC_fake_script)()
+local function NNJFDR_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	local player = game.Players.LocalPlayer
+	local gui = script.Parent
+	
+	if player then
+		gui.Text = "Welcome"..player.Name.."!"
+	end
+end
+coroutine.wrap(NNJFDR_fake_script)()

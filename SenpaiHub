@@ -598,7 +598,7 @@ DaHood.TextScaled = true
 DaHood.TextSize = 14.000
 DaHood.TextWrapped = true
 DaHood.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Compwnter/LegacyX/main/script.lua" , true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenpaiSripter/f/main/da%20Hood" , true))()
 end)
 
 UICorner_24.Parent = DaHood

@@ -503,7 +503,7 @@ BedWar.TextScaled = true
 BedWar.TextSize = 14.000
 BedWar.TextWrapped = true
 BedWar.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenpaiSripter/BED/main/BEDWAR" , true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenpaiSripter/BedwarV2/main/BedWar" , true))()
 end)
 
 UICorner_18.Parent = BedWar
@@ -635,7 +635,7 @@ TextButton_4.TextScaled = true
 TextButton_4.TextSize = 14.000
 TextButton_4.TextWrapped = true
 TextButton_4.MouseButton1Down:connect(function()
-	if Username.Text == "hpifuCsikL14kDstsy3252" and Password.Text == "SenpaiScript" then
+	if Username.Text == "kpifuCsikL14gfDs44y3252" and Password.Text == "SenpaiScript" then
 		LoginFrame.Visible = false
 		MegaLegohaxframe.Visible = true
 	end

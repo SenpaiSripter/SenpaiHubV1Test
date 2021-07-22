@@ -635,7 +635,7 @@ TextButton_4.TextScaled = true
 TextButton_4.TextSize = 14.000
 TextButton_4.TextWrapped = true
 TextButton_4.MouseButton1Down:connect(function()
-	if Username.Text == "kpifuCsikL14gfDs44y3252" and Password.Text == "SenpaiScript" then
+	if Username.Text == "2pifuCsgifL14ghs44ya52" and Password.Text == "SenpaiScript" then
 		LoginFrame.Visible = false
 		MegaLegohaxframe.Visible = true
 	end
